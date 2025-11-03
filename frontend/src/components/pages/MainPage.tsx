@@ -64,11 +64,11 @@ export const MainPage = () => {
     //     else return 0;
     //   },
     // },
-    { 
+    /* { 
       component: <SlackPage />,
       duration: 60,
       priority: () => 2.5,
-    },
+    }, */
     /* {
       component: <VideoPage pageDuration={60} />,
       duration: 60,
@@ -116,7 +116,7 @@ export const MainPage = () => {
     //   duration: 30,
     //   priority: () => 1.2,
     // },
-    {
+    /* {
       component: <MovemberPage />,
       duration: 20,
       priority: () => {
@@ -129,7 +129,7 @@ export const MainPage = () => {
         if (seasonStart <= today && today <= seasonEnd) return 1;
         else return 0;
       },
-    },
+    }, */
     {
       component: <Kunnskapkom />,
       duration: 30,
