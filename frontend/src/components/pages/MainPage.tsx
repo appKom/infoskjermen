@@ -6,7 +6,7 @@ import { ChristmasPage } from "./ChristmasPage";
 import { EventsPage } from "./EventsPage";
 import { NapkomPage } from "./Napkom";
 // import { BratPage } from "./BratPage";
-// import { PodcastPage } from "./PodcastPage";
+import { PodcastPage } from "./PodcastPage";
 import { MovemberPage } from "./MovemberPage";
 import { Kunnskapkom } from "./Kunnskapkom";
 import { SlackPage } from "./SlackPage";
@@ -111,11 +111,11 @@ export const MainPage = () => {
       },
       fullScreen: true,
     },
-    // {
-    //   component: <PodcastPage />,
-    //   duration: 30,
-    //   priority: () => 1.2,
-    // },
+    {
+      component: <PodcastPage />,
+      duration: 30,
+      priority: () => 1000.2,
+    },
     /* {
       component: <MovemberPage />,
       duration: 20,
