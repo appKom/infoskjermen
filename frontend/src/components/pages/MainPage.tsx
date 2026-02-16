@@ -150,12 +150,12 @@ export const MainPage = () => {
       },
       fullScreen: true,
     }, */
-    {
+    /* {
       component: <JubkomPage />,
       duration: 30,
       priority: () => 0.7,
       fullScreen: true,
-    },
+    }, */
     /* {
       component: <CharityPage />,
       duration: 30,
